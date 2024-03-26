@@ -32,6 +32,7 @@ Parabéns! Você acertou o número em 3 tentativas!
 6. Modifique o programa do Jogo de Adivinhação para que após cada tentativa, o programa deve informar ao usuário se o palpite é muito alto, muito baixo, ou correto. Uma vez que o usuário adivinhe o número corretamente, o programa perguntará se ele gostaria de jogar novamente. O usuário pode continuar jogando quantas vezes quiser até que escolha sair do jogo. Dica: use while(true).
 
 7. Crie um programa em Java que exiba formas geométricas na tela. Um menu deve ser exibido com as seguintes opções: retângulo, diagonal superior esquerda, diagonal superior direita, diagonal inferior esquerda, diagonal inferior direita. As imagens devem ser formadas por asteriscos (*) e, a pessoa utilizadora deve informar a quantidade de colunas. Abaixo estão alguns exemplos das formas:
+```
 *  *  *  * 
 *  *  *  *
 *  *  *  *
@@ -55,7 +56,7 @@ Parabéns! Você acertou o número em 3 tentativas!
        *  *
     *  *  *
 *  *  *  *
-
+```
 8. Escreva um programa em Java que calcule o produto de A (número real) por B (número inteiro), ou seja, A*B, por intermédio de adições sucessivas. Tanto A quanto B devem ser fornecidos pela pessoa utilizadora do programa.
 
 9. Dados dois países, A com população igual a cinco milhões de pessoas, e taxa de natalidade de três por cento ao ano, e, B, com população igual a sete milhões de pessoas e taxa de natalidade de dois por cento ao ano, escreva um programa em Java que calcule iterativamente e exiba em quantos anos a população de A ultrapassará a população de B.
