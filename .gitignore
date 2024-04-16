@@ -26,3 +26,4 @@ replay_pid*
 /target
 
 *.DS_Store
+/PSC_EXERCICIOS_JAVA_4/target/

@@ -18,7 +18,7 @@ public class Ex01 {
         Scanner input = new Scanner(System.in);
         int produtoImpares = 1;
         int somaPares = 0;
-        
+        int cont = 0;
         while (true) {
             System.out.print("Digite um número inteiro e positivo (ou um negativo para sair): ");
             int numero = input.nextInt();
@@ -31,8 +31,11 @@ public class Ex01 {
             } else {
                 produtoImpares *= numero;
             }
+            cont++;
         }
-        System.out.println("Produto dos números ímpares: " + produtoImpares);
-        System.out.println("Soma dos números pares: " + somaPares);
+        if (cont > 0) {
+            System.out.println("Produto dos números ímpares: " + produtoImpares);
+            System.out.println("Soma dos números pares: " + somaPares);
+        }
     }
 }
